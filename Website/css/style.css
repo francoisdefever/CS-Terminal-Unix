@@ -1,0 +1,45 @@
+body {
+  background-color: black;
+}
+
+table {
+  margin-top: 5em;
+  margin-left: 7em;
+  margin-right: 7em;
+}
+
+#table2 {
+  margin-top: 5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+tr {
+
+}
+
+td {
+  padding: 1.5em;
+  color: white;
+  font-family: sans-serif;
+  font-size: 1.3em;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 4em;
+}
+
+#headpict {
+  margin-left: auto;
+  margin-right: auto;
+  width: 15em;
+  height: 7.5em;
+}
+
+p1 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 1em;
+}
