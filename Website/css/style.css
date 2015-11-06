@@ -1,45 +1,65 @@
 body {
-  background-color: black;
+    background-color: white;
+    color: lightgrey;
 }
-
-table {
-  margin-top: 5em;
-  margin-left: 7em;
-  margin-right: 7em;
-}
-
-#table2 {
-  margin-top: 5em;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-tr {
-
-}
-
-td {
-  padding: 1.5em;
-  color: white;
-  font-family: sans-serif;
-  font-size: 1.3em;
-}
-
 h1 {
-  text-align: center;
-  color: white;
-  font-size: 4em;
+    font-family: "Shadows Into Light", cursive;
+    font-size: 54px;
 }
-
-#headpict {
-  margin-left: auto;
-  margin-right: auto;
-  width: 15em;
-  height: 7.5em;
+h2 {
+    font-family: "Shadows Into Light", cursive;
+    font-size: 30px;
 }
-
-p1 {
-  color: white;
-  font-family: sans-serif;
-  font-size: 1em;
+nav ul ol {
+    display: inline-block;
+    margin: 5%;
+    padding: 5%;
+}
+#orga {
+    color: black;
+    position: relative;
+}
+#structure {
+    color: black;
+    margin: 25%;
+    padding: 25%;
+}
+#comment {
+    color: black;
+    margin: 25%;
+    padding: 25%;
+}
+#header {
+    font-size: 54px;
+    text-align: center;
+}
+#orga-work {
+    background-color: lightblue;
+    font-family: "Nova Mono", sans-serif;
+    color: gray;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin: -20px;
+}
+#orga-structure {
+    background-color: lightgreen;
+    font-family: "Nova Mono", sans-serif;
+    color: gray;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin: -20px;
+}
+#comments {
+    background-color: indianred;
+    font-family: "Nova Mono", sans-serif;
+    color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin: -20px;
 }

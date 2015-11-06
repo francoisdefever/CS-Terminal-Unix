@@ -1,57 +1,83 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-        <title>Acceuil CheaSheet Terminal Unix</title>
-        <link type="text/css" rel="stylesheet" href="Website/css/style.css" />
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    </head>
-    <body>
-        <h1>Unix Terminal CheatSheet</h1>
-        <div>
-        <table>
-          <tr>
-            <td><img id="headpict" src="http://www.unix.org/40years.png" /></td>
-            <td><p1> Unix (all-caps UNIX for the trademark) is a family of multitasking, multiuser computer operating systems that derive from the original AT&T Unix, developed in the 1970s at the Bell Labs research center by Ken Thompson, Dennis Ritchie, and others. the suite of the story <a href="https://en.wikipedia.org/wiki/Unix">here</a></p1></td>
-          </tr>
-        </table>
-      </div>
-        <table border="20em groove white" id="table2">
-          <tr>
-            <td>Command</td>
-            <td>What's the deal</td>
-          </tr>
-          <tr>
-            <td>ls:</td>
-            <td>Display contents</td>
-          </tr>
-          <tr>
-            <td>pwd :</td>
-            <td>Display the path</td>
-          </tr>
-          <tr>
-            <td>cd :</td>
-            <td>Change directory</td>
-          </tr>
-          <tr>
-            <td>mv :</td>
-            <td>Move content</td>
-          </tr>
-          <tr>
-            <td>mkdir</td>
-            <td>Create a directory</td>
-          </tr>
-          <tr>
-            <td>touch :</td>
-            <td>create a file</td>
-          </tr>
-          <tr>
-            <td>cat :</td>
-            <td>Display content of a file</td>
-          </tr>
-          <tr>
-            <td>rm :</td>
-            <td>delete</td>
-          </tr>
-        </table>
-    </body>
-  </html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="website/css/style.css">
+    <link rel="stylesheet" href="website/css/styletab.css" media="screen and (max-width:768px)">
+    <link rel="stylesheet" href="website/css/stylesmart.css" media="screen and (max-width:320px)">
+    <link href="https://fonts.googleapis.com/css?family=Nova+Mono" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet" type="text/css">
+    <title>Unix Terminal learning</title>
+</head>
+
+<body>
+    <section id="header">
+        <h1>Unix Terminal Learning</h1>
+    </section>
+
+    <nav>
+        <ul>
+            <ol><a id="orga" href="#orga-work">Organisation</a></ol>
+            <ol><a id="structure" href="#orga-structure">Structuration</a></ol>
+            <ol><a id="comment" href="#comments">Commentaires</a></ol>
+        </ul>
+    </nav>
+
+    <section id="orga-work">
+        <h2>Organisation du travail :</h2>
+        <h3>Dossier Organisation de travail</h3>
+        <ul>
+            <li>Elements de travail: contient les jpg,png,psd</li>
+            <li>Sites :</li>
+            <ul>
+                <li>index.html</li>
+                <li>css: feuilles de styles</li>
+                <li>images: images finales du sites</li>
+                <li>js: javascript</li>
+                <li>média: vidéo audio</li>
+                <li>pages: pages du site</li>
+            </ul>
+        </ul>
+        <a href="#header">Move Up !</a>
+    </section>
+
+    <section id="orga-structure">
+        <h2>Structure de page de base :</h2>
+        <blockquote>
+            <p>
+                <pre>&lt!DOCTYPE html&gt = grammaire générale des balises html
+                    <br/> &lthtml&gt = début de la page
+                    <br/> &lthead&gt = Entête qui ne s'affuiche pas sur le site
+                    <br/> &ltmeta charset="utf-8" /&gt = pour afficher les accents
+                    <br/> &lttitle&gtPage de base&lt/title&gt= titre de la page, il s'affiche dans l'onglet du navigateur
+                    <br/> &lt/head&gt
+                    <br/> &ltbody&gt = Corps qui s'affiche sur la page
+                    <br/> &lt/body&gt
+                    <br/> &lt/html&gt = Fin de page
+                    <br/>
+                </pre>
+            </p>
+        </blockquote>
+        <a href="#header">Move Up !</a>
+    </section>
+
+    <section id="comments">
+        <h2>Comentaires et entités :</h2>
+        <p>&lt!-- Commentaires qui n'apparait pas dans le navigateur --&gt
+            <br/>
+            <br/> a &lt b = a &lt; b = entité qui dit que a est inférieur à b
+            <br/> a &gt b = a &gt; b = entité qui dit que a est supérieur à b
+            <br/> a & b = a &amp; b = entité de a et b
+            <br/> a&nbsp;b = espace non sécable
+            <br/>
+        </p>
+        <a href="#header">Move Up !</a>
+
+    </section>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
