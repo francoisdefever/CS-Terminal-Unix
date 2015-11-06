@@ -8,7 +8,7 @@ h1 {
 }
 h2 {
     font-family: "Shadows Into Light", cursive;
-    font-size: 30px;
+    font-size: 50px;
 }
 nav ul ol {
     display: inline-block;
@@ -24,14 +24,17 @@ img {
 #histo {
     color: black;
     display: inline-block;
+    font-family: "Nova Mono", sans-serif;
 }
 #structure {
     color: black;
+    font-family: "Nova Mono", sans-serif;
     margin: 25%;
     padding: 25%;
 }
 #comment {
     color: black;
+    font-family: "Nova Mono", sans-serif;
     margin: 25%;
     padding: 25%;
 }
@@ -42,11 +45,12 @@ img {
 #history {
     background-color: lightblue;
     font-family: "Nova Mono", sans-serif;
+    font-size: 18px;
+    text-align: justify;
     color: black;
     padding-left: 2em;
     padding-right: 2em;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-bottom: 4em;
     margin: -20px;
 }
 #orga-structure {
