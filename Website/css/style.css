@@ -15,7 +15,7 @@ nav ul ol {
     margin: 5%;
     padding: 5%;
 }
-#orga {
+#histo {
     color: black;
     position: relative;
 }
@@ -33,7 +33,7 @@ nav ul ol {
     font-size: 54px;
     text-align: center;
 }
-#orga-work {
+#history {
     background-color: lightblue;
     font-family: "Nova Mono", sans-serif;
     color: gray;
